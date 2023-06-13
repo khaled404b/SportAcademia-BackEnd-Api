@@ -44,7 +44,7 @@ app.use(cors());
 
 
 
-
+ 
 // App
 app.use("/", routesAcademia(firebaseApp));
 app.use("/", routesPlayer());
