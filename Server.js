@@ -33,7 +33,7 @@ const serviceAccount = require(process.env.FIREBASE_URL);
 const firebaseApp = firebaseAdmin.initializeApp({
   credential: firebaseAdmin.credential.cert(serviceAccount),
   storageBucket: "sport-123-123.appspot.com",
-});
+});  
 
 
 
