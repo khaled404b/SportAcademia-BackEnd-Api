@@ -16,6 +16,11 @@ module.exports = (firebaseApp) => {
   //---------------------------------------------------------------------------------------------------------------
   // Register route ACA
   //---------------------------------------------------------------------------------------------------------------
+  
+  router.get('/', (req, res) => {
+    res.send('Welcome to the Sport Academia API!');
+  });
+  
   router.post("/registerACA", upload.array("photos"), async (req, res) => {
     const data = req.body;
     console.log("data : " ,data)
