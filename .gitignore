@@ -5,7 +5,7 @@ node_modules
 .env
 
 # Ignore logs
-*.log
+*.log 
 
 # Ignore OS generated files
 .DS_Store 
@@ -17,3 +17,4 @@ Thumbs.db
 *.swn
 *.bak
 *.tmp
+  
